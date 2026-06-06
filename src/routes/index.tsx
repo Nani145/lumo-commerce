@@ -89,12 +89,12 @@ function Index() {
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <a
-                href="#shop"
-                className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-foreground transition hover:scale-[1.03]"
-              >
-                Shop the drop
-                <ArrowRight className="h-4 w-4" />
-              </a>
+  href="#shop"
+  className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.03]"
+>
+  Shop the drop
+  <ArrowRight className="h-4 w-4" />
+</a>
               <a
                 href="#story"
                 className="glass inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/15"
