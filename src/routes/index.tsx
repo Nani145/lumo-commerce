@@ -198,12 +198,12 @@ function Index() {
                   studios in Berlin. Numbered, signed, never restocked.
                 </p>
                 <a
-                  href="#"
-                  className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-foreground transition hover:scale-[1.03]"
-                >
-                  Reserve yours
-                  <ArrowRight className="h-4 w-4" />
-                </a>
+  href="#"
+  className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.03]"
+>
+  Reserve yours
+  <ArrowRight className="h-4 w-4" />
+</a>
               </div>
               <div className="relative h-72 sm:h-80">
                 <img
