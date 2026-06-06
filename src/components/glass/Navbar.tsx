@@ -21,13 +21,13 @@ export function Navbar() {
           <IconBtn aria="Wishlist"><Heart className="h-4.5 w-4.5" /></IconBtn>
           <IconBtn aria="Account"><User className="h-4.5 w-4.5" /></IconBtn>
           <button
-            aria-label="Cart"
-            className="ml-1 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-foreground shadow-[0_8px_24px_-6px_rgba(255,255,255,0.5)] transition hover:scale-[1.03]"
-          >
-            <ShoppingBag className="h-4 w-4" />
-            <span className="hidden sm:inline">Cart</span>
-            <span className="rounded-full bg-foreground/10 px-1.5 text-xs">3</span>
-          </button>
+  aria-label="Cart"
+  className="ml-1 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-black shadow-[0_8px_24px_-6px_rgba(255,255,255,0.5)] transition hover:scale-[1.03]"
+>
+  <ShoppingBag className="h-4 w-4" />
+  <span className="hidden sm:inline">Cart</span>
+  <span className="rounded-full bg-black/10 px-1.5 text-xs">3</span>
+</button>
         </div>
       </nav>
     </header>
