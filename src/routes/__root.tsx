@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Lumo" },
+      { name: "description", content: "Aura Commerce is a modern e-commerce platform designed for visually stunning online stores." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Lumo" },
+      { property: "og:description", content: "Aura Commerce is a modern e-commerce platform designed for visually stunning online stores." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lumo" },
+      { name: "twitter:description", content: "Aura Commerce is a modern e-commerce platform designed for visually stunning online stores." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9a9d75cd-46ae-4d8f-9a23-3603e3320180/id-preview-892276e5--9a7082e9-f915-4738-82fc-a333ccab803b.lovable.app-1780729312900.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9a9d75cd-46ae-4d8f-9a23-3603e3320180/id-preview-892276e5--9a7082e9-f915-4738-82fc-a333ccab803b.lovable.app-1780729312900.png" },
     ],
     links: [
       {
